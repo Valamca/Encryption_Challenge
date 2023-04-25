@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    
+    <head> <!--Aquí se declaran los elementos del head así como las imagenes que se usaron de fondo-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Encriptador | Valam Cortes</title>
+        <link rel="shortcut icon" href="Images/icon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <img class="background" src="Images/FondoChallenge-split.png" alt="Mesa de fondo">
+        <img class="background2" src="Images/Backroung2.png" alt="Mesa de fondo 2">
+    </head>
+
+    <body> <!--Aquí están los elementos del body del programa-->
+
+        <img class="logo" src="Images/Logo.svg" alt="Letra a">
+        <img class="finding" src="Images/rare.png" id="fg" alt="Pizarra de corcho">
+        <img class="sheetin" src="Images/HojaBlancaArrugada.png" id="ff" alt="Hoja de papel corrugado">
+
+        <p id="p"> 
+            No se ha detectado texto a encriptar-→
+        </p> 
+
+        <h2>Misión A.L.U.R.A</h2>
+
+        <textarea class = "textin" name = "textin" id="textIn" placeholder="Ingresa aquí tu texto" ></textarea>
+        <textarea class= "textout" name = "results" id="textout" placeholder ="No se ha detectado texto" readonly></textarea>
+
+        <h3> ► Sólo letras minúsculas sin acentos</h3>
+
+        <nav class="btnsL">
+            <button class = "btn1" type="button", id="encryptbutton">Encriptar</button>
+            <button class = "btn2" type="button", id="decryptbutton">Desencriptar</button>
+        </nav>
+
+        <button class = "btn3" type="button", id="CopyTex">Copiar encriptado</button>
+
+        <script src="Script.js"></script>
+
+    </body>
+    
+    <footer> <!--Elemenetos que se encuentran al pie del programa-->
+        <h4>Desarrollado por Valam Cortes</h4>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/in/franciscovalamca/" target="_blank" rel="noreferrer noopener"><img class="linke" src="Images/linkedin.svg" alt="Logo de Linkedin"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/FNiggalam" target="_blank" rel="noreferrer noopener"><img class="twite" src="Images/twitter.svg" alt="Logo de Twitter"></a>
+            </li>
+        </ul>
+    </footer>
+
+</html>
